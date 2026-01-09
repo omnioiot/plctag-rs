@@ -1,6 +1,6 @@
 [package]
 name = "plctag-derive"
-version = "0.3.2"
+version = "0.3.3"
 edition = "2021"
 description = "macros for `plctag`"
 readme = "README.md"
@@ -18,7 +18,7 @@ path = "src/lib.rs"
 proc-macro = true
 
 [dependencies]
-proc-macro-crate = "1"
+proc-macro-crate = "3"
 proc-macro2 = "1"
 proc-quote = "0.4"
 syn = { version = "2", features = ["full", "parsing"] }
